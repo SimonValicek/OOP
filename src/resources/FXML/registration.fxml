@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="800.0" styleClass="anchor" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.RegistrationGUI">
+   <children>
+      <PasswordField fx:id="password1_field" layoutX="250.0" layoutY="285.0" prefHeight="30.0" prefWidth="300.0" promptText="Password" />
+      <PasswordField fx:id="password2_field" layoutX="250.0" layoutY="325.0" prefHeight="30.0" prefWidth="300.0" promptText="Password" />
+
+      <Button fx:id="confirmation_button" layoutX="370.0" layoutY="375.0" mnemonicParsing="false" onAction="#confirm" text="Confirm" />
+      <TextField fx:id="username_field" layoutX="250.0" layoutY="245.0" prefHeight="30.0" prefWidth="300.0" promptText="Username" />
+      <Label fx:id="confirmation_error_label" layoutX="320.0" layoutY="211.0" text="" />
+      <Button fx:id="return_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#stepBack" text="Return" />
+   </children>
+</AnchorPane>

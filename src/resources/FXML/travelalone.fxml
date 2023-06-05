@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="800" styleClass="anchor" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.TravelAloneGUI">
+    <children>
+        <Button fx:id="return_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#stepBack" text="Return" />
+      <TextField fx:id="title_input" layoutX="314.0" layoutY="213.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="263.0" layoutY="216.0" text="Title:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="create_route" layoutX="355.0" layoutY="265.0" mnemonicParsing="false" onAction="#createRoute" prefHeight="25.0" prefWidth="90.0" text="Create Route" />
+      <Label fx:id="error_label" layoutX="392.0" layoutY="80.0" />
+    </children>
+</AnchorPane>

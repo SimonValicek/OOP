@@ -1,0 +1,27 @@
+.anchor{
+    -fx-background-image: url('https://cdn.pixabay.com/photo/2015/12/16/14/42/route-66-1096045_960_720.jpg');
+    -fx-background-size: 100% 100%;
+}
+
+.anchor-simulation{
+    -fx-background-image: url('https://d56b293rhv8dp.cloudfront.net/tours/57/maps/original/57-tour-route-66-motorcycle-tour-eaglerider.jpg?1597767270');
+    -fx-background-size: 100% 100%;
+}
+
+.scroll-bar {
+    -fx-background-color: rgba(0,0,0,0.8);
+}
+
+.scroll-bar-thumb {
+    -fx-background-color: rgba(0,0,0,0.8);
+}
+
+.prev_button {
+    -fx-background-image: url("https://cdn.pixabay.com/photo/2013/03/29/13/39/previous-97613_960_720.png");
+    -fx-background-size: cover;
+}
+
+.next_button {
+    -fx-background-image: url("https://cdn.pixabay.com/photo/2013/03/29/13/39/next-97612_960_720.png");
+    -fx-background-size: cover;
+}

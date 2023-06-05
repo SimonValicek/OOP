@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="800" styleClass="anchor" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.HomepageGUI">
+   <children>
+      <ButtonBar layoutX="100" layoutY="200" nodeOrientation="INHERIT" opacity="0.5" prefHeight="200" prefWidth="600">
+        <buttons>
+            <Button fx:id="create_group" mnemonicParsing="false" onAction="#createGroup" prefHeight="160.0" prefWidth="200.0" text="Create Group" />
+          <Button fx:id="join_group" mnemonicParsing="false" onAction="#joinGroup" prefHeight="160.0" prefWidth="10.0" text="Join Group" />
+            <Button fx:id="travel_alone" mnemonicParsing="false" onAction="#travelAlone" prefHeight="160.0" text="Travel Alone" />
+        </buttons>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </ButtonBar>
+      <Button fx:id="return_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#stepBack" text="Return" />
+      <Button fx:id="add_stop_button" layoutX="719.0" layoutY="14.0" mnemonicParsing="false" onAction="#addStop" text="Add Stop" />
+      <Button fx:id="show_stops_button" layoutX="361.0" layoutY="14.0" mnemonicParsing="false" onAction="#showStops" text="Show Stops" />
+      <Button fx:id="my_routes_button" layoutX="362.0" layoutY="55.0" mnemonicParsing="false" onAction="#showMyRoutes" prefHeight="26.0" prefWidth="78.0" text="My Routes" />
+   </children>
+</AnchorPane>

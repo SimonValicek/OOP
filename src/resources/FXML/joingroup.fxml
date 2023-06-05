@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="800" styleClass="anchor" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.JoinGroupGUI">
+   <children>
+      <ScrollPane fx:id="scr_pane" layoutX="50.0" layoutY="200.0" prefHeight="200.0" prefWidth="700.0" vbarPolicy="NEVER">
+         <content>
+            <HBox fx:id="h_box" prefHeight="200.0" prefWidth="700.0" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="return_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#stepBack" text="Return" />
+      <Label fx:id="success_label" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="174.0" layoutY="138.0" prefHeight="20.0" prefWidth="452.0" textAlignment="CENTER" textFill="#34ef34">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

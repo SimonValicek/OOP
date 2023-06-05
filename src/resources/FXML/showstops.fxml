@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor_pane" prefHeight="600" prefWidth="800" styleClass="anchor" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.ShowStopGUI">
+   <children>
+      <VBox fx:id="v_box" alignment="CENTER" layoutX="50.0" layoutY="50.0" prefHeight="500.0" prefWidth="700.0">
+         <children>
+            <Label fx:id="title_label" alignment="CENTER" contentDisplay="CENTER" prefHeight="14.0" prefWidth="463.0" textAlignment="CENTER" textFill="#a727a9">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+            </Label>
+            <HBox fx:id="h_box" prefHeight="300.0" prefWidth="700.0">
+               <children>
+                  <Button fx:id="prev_button" mnemonicParsing="false" onAction="#goPrev" prefHeight="30.0" prefWidth="65.0" text="Previous">
+                     <HBox.margin>
+                        <Insets right="35.0" top="135.0" />
+                     </HBox.margin>
+                  </Button>
+                  <ImageView fx:id="stop_image" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <Button fx:id="next_button" mnemonicParsing="false" onAction="#goNext" prefHeight="30.0" prefWidth="65.0" text="Next">
+                     <HBox.margin>
+                        <Insets left="35.0" top="135.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="show_details" mnemonicParsing="false" onAction="#showDetails" prefHeight="26.0" prefWidth="90.0" text="Show Details">
+                     <HBox.margin>
+                        <Insets left="305.0" top="37.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children></VBox>
+      <Button fx:id="step_back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#stepBack" text="Return" />
+   </children>
+</AnchorPane>

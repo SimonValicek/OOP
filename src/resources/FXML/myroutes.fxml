@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="anchor" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.MyRoutesGUI">
+   <children>
+      <ScrollPane layoutX="50.0" layoutY="70.0" prefHeight="490.0" prefWidth="700.0">
+         <content>
+            <VBox fx:id="v_box" prefHeight="487.0" prefWidth="698.0">
+               <children>
+                
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <Button fx:id="return_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#stepBack" text="Return" />
+   </children>
+</AnchorPane>

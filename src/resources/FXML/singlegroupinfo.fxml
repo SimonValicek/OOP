@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600" prefWidth="800" styleClass="anchor" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.SingleGroupInfoGUI">
+   <children>
+      <Label layoutX="250.0" layoutY="160.0" prefHeight="30.0" prefWidth="70.0" style="-fx-font-weight: bold" text="Title:" />
+      <Label layoutX="250.0" layoutY="200.0" prefHeight="30.0" prefWidth="70.0" style="-fx-font-weight: bold" text="Owner:" />
+      <Label layoutX="250.0" layoutY="240.0" prefHeight="30.0" prefWidth="70.0" style="-fx-font-weight: bold" text="Members:" />
+      <Label layoutX="250.0" layoutY="280.0" prefHeight="30.0" prefWidth="70.0" style="-fx-font-weight: bold" text="Stops:" />
+      <Label layoutX="250.0" layoutY="320.0" prefHeight="30.0" prefWidth="70.0" style="-fx-font-weight: bold" text="Description:" />
+      <Text fx:id="owner_text" layoutX="325.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="92.5367431640625" />
+      <Text fx:id="title_text" layoutX="325.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="92.5367431640625" />
+      <Text fx:id="members_text" layoutX="325.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="92.5367431640625" />
+      <Text fx:id="stops_text" layoutX="325.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="92.5367431640625" />
+      <Text fx:id="desc_text" layoutX="325.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="92.5367431640625" />
+      <Button fx:id="join_button" layoutX="381.0" layoutY="424.0" mnemonicParsing="false" onAction="#joinGroup" text="Join" />
+      <Label fx:id="result_label" alignment="TOP_CENTER" layoutX="106.0" layoutY="103.0" prefHeight="18.0" prefWidth="588.0" textAlignment="CENTER" textFill="DARKRED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="return_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#stepBack" text="Return" />
+   </children>
+</AnchorPane>

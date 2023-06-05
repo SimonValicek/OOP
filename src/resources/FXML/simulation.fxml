@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="main_pane" prefHeight="600" prefWidth="800" styleClass="anchor-simulation" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.SimulationGUI">
+   <children>
+      <Label layoutX="25.0" layoutY="15.0" prefHeight="20.0" prefWidth="60.0" text="Hunger:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="35.0" prefHeight="20.0" prefWidth="60.0" text="Thirst:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="55.0" prefHeight="20.0" prefWidth="60.0" text="Pleasure:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="75.0" prefHeight="20.0" prefWidth="60.0" text="Fuel:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="95.0" prefHeight="20.0" prefWidth="60.0" text="Energy:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="hunger_label" layoutX="85.0" layoutY="15.0" prefHeight="20.0" prefWidth="100.0" />
+      <Label fx:id="thirst_label" layoutX="85.0" layoutY="35.0" prefHeight="20.0" prefWidth="100.0" />
+      <Label fx:id="pleasure_label" layoutX="85.0" layoutY="55.0" prefHeight="20.0" prefWidth="100.0" />
+      <Label fx:id="fuel_label" layoutX="85.0" layoutY="75.0" prefHeight="20.0" prefWidth="100.0" />
+      <Label fx:id="energy_label" layoutX="85.0" layoutY="95.0" prefHeight="20.0" prefWidth="100.0" />
+      <Label fx:id="error_label" alignment="CENTER" layoutX="200.0" layoutY="50.0" prefHeight="20.0" prefWidth="400.0" textFill="#f70808">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="success_label" alignment="CENTER" layoutX="200.0" layoutY="70.0" prefHeight="20.0" prefWidth="400.0" textFill="#259611">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

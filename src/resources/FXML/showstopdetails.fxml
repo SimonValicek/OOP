@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="800" styleClass="anchor" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.ShowStopDetailsGUI">
+   <children>
+      <ImageView fx:id="stop_image" fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="stop_title" alignment="TOP_CENTER" layoutX="150.0" layoutY="40.0" prefHeight="20.0" prefWidth="500.0" textFill="#b10cb1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="275.0" prefHeight="18.0" prefWidth="41.0" style="-fx-font-weight: bold; -fx-text-fill: white;" text="State:" />
+      <Label layoutX="80.0" layoutY="300.0" style="-fx-font-weight: bold; -fx-text-fill: white;" text="City:" />
+      <Label fx:id="state_label" layoutX="160.0" layoutY="275.0" prefHeight="18.0" prefWidth="341.0" style="-fx-font-weight: bold; -fx-text-fill: white;" />
+      <Label fx:id="city_label" layoutX="160.0" layoutY="300.0" prefHeight="18.0" prefWidth="332.0" style="-fx-font-weight: bold; -fx-text-fill: white;" />
+      <Label layoutX="80.0" layoutY="350.0" style="-fx-font-weight: bold; -fx-text-fill: white;" text="Description:" />
+      <Label fx:id="desc_label" alignment="TOP_LEFT" depthTest="ENABLE" layoutX="160.0" layoutY="350.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="575.0" style="-fx-font-weight: bold; -fx-text-fill: white;" wrapText="true" />
+      <Label layoutX="80.0" layoutY="325.0" style="-fx-font-weight: bold; -fx-text-fill: white;" text="Added by:" />
+      <Label fx:id="author_label" layoutX="160.0" layoutY="325.0" style="-fx-font-weight: bold; -fx-text-fill: white;" />
+      <Label layoutX="80.0" layoutY="250.0" style="-fx-font-weight: bold; -fx-text-fill: white;" text="Kilometer:" />
+      <Label fx:id="location_label" layoutX="160.0" layoutY="250.0" prefHeight="18.0" prefWidth="252.0" style="-fx-font-weight: bold; -fx-text-fill: white;" />
+      <Button fx:id="add_to_route" layoutX="356.0" layoutY="531.0" mnemonicParsing="false" onAction="#addToRoute" text="Add to Route" />
+      <Button fx:id="step_back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#stepBack" text="Return" />
+      <Label fx:id="notification_label" alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="500.0" prefHeight="20.0" prefWidth="600.0" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="choice_box" layoutX="635.0" layoutY="41.0" prefWidth="150.0" />
+      <Label layoutX="669.0" layoutY="14.0" text="Select Route">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

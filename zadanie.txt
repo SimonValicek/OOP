@@ -1,0 +1,28 @@
+Daná je nasledujúca rámcová téma:
+
+Plánovanie ciest
+
+Cesty môžu predstavovať veľmi zložité podujatia, ktoré naozaj môžu mať prospech zo softvérovej podpory. Často zahŕňajú odbočky za účelom navštívenia zaujímavých miest v blízkosti hlavnej trasy. Rôzne služby a udalosti môžu byť ponúkané na týchto miestach. Tieto miesta môžu byť odporúčané na základe potrieb a ohraničení cestujúceho. Počas cesty sa pôvodný plán môže zmeniť. Cestovanie v skupine môže zahŕňať synchronizáciu odbočiek. Či plán cesty vytvoril profesionál alebo samotní cestujúci, môže byť hodný zdieľania s ostatnými.
+
+Spôsob hodnotenia je nasledujúci:
+
+splnenie hlavných kritérií – max. 15 b
+program v súlade so zadaním a zámerom projektu, ako aj pokynmi vyučujúceho, s adekvátne použitým dedením a polymorfizmom v aspoň dvoch oddelených hierarchiách dedenia, vrátane použitia rozhraní, a s korektným zapuzdrením a vhodným použitím agregácie; dôsledné oddelenie aplikačnej logiky od používateľského rozhrania; kód vhodne organizovaný do balíkov; prehľadná dokumentácia so všetkými položkami podľa opisu vyššie – 14–15 b
+program v súlade so zadaním a zámerom projektu, ako aj pokynmi vyučujúceho, s adekvátne použitým dedením v aspoň dvoch oddelených hierarchiách dedenia a polymorfizmom v aspoň jednej z nich, vrátane použitia rozhraní, a s korektným zapuzdrením a vhodným použitím agregácie; principiálne oddelenie aplikačnej logiky od používateľského rozhrania; kód vhodne organizovaný do balíkov; prevažne prehľadná dokumentácia so všetkými položkami podľa opisu vyššie – 11–13 b
+program v súlade so zadaním a zámerom projektu, ako aj pokynmi vyučujúceho, s menšími akceptovateľnými odchýlkami, s adekvátne použitým dedením a polymorfizmom v aspoň jednej hierarchii dedenia, a s prevažne korektným zapuzdrením a prevažne vhodným použitím agregácie; dokumentácia so všetkými položkami podľa opisu vyššie – 8–10 b
+program v súlade so zadaním a zámerom projektu, ako aj pokynmi vyučujúceho, s ešte stále akceptovateľnými odchýlkami, s adekvátne použitým dedením a polymorfizmom v aspoň jednej hierarchii dedenia, a s obmedzeným využitím zapuzdrenia a použitím agregácie; ešte stále akceptovateľná dokumentácia – 0–7 b
+adekvátne splnenie ďalších kritérií (najmä tých, ktoré sú vymenované vyššie, pričom použitie príslušného mechanizmu nezakladá automaticky nárok na hodnotenie – vhodnosť posúdi vyučujúci) v súlade so zadaním a zámerom projektu, ako aj pokynmi vyučujúceho, s adekvátnym krátkym opisom v dokumentácii: splnenie každého kritéria bude hodnotené v rozpätí 0–4 b – max. 25 b
+
+Ďalšie kritériá zahŕňajú:
+
+použitie návrhových vzorov okrem návrhového vzoru Singleton – každý implementovaný návrhový vzor sa počíta ako splnenie jedného ďalšieho kritériá, ale implementácia všetkých návrhových vzorov sa posudzuje maximálne na úrovni splnenia troch ďalších kritérií
+ošetrenie mimoriadnych stavov prostredníctvom vlastných výnimiek – stačí jedna vlastná výnimka, ale musí byť skutočne vyhadzovaná a ošetrovaná
+poskytnutie grafického používateľského rozhrania oddelene od aplikačnej logiky a s aspoň časťou spracovateľov udalostí (handlers) vytvorenou manuálne – počíta sa ako splnenie dvoch ďalších kritérií
+explicitné použitie viacniťovosti (multithreading) – spustenie vlastnej nite priamo alebo prostredníctvom API vyššej úrovne (trieda Task a pod.)
+použitie generickosti vo vlastných triedach – implementácia a použitie vlastnej generickej triedy (ako v príklade spájaného zoznamu poskytnutého k prednáške 5)
+explicitné použitie RTTI – napr. na zistenie typu objektu alebo vytvorenie objektu príslušného typu (ako v hre s obrami a rytiermi pri zisťovaní počtu bytostí)
+použitie vhniezdených tried a rozhraní – počíta sa iba použitie v aplikačnej logike, nie v GUI, pričom rozhrania musia byť vlastné (jedna možnosť je v príklade vnútorných tried k prednáške 4)
+použitie lambda výrazov alebo referencií na metódy (method references) – počíta sa iba použitie v aplikačnej logike, nie v GUI (jedna možnosť je v príklade referencií na metódy a lambda výrazov k prednáške 4)
+použitie implicitnej implementácie metód v rozhraniach (default method implementation)
+použitie aspektovo-orientovaného programovania (AspectJ)
+použitie serializácie

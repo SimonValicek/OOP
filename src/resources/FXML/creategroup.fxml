@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="800" styleClass="anchor" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.CreateGroupGUI">
+   <children>
+      <TextField fx:id="title_input" layoutX="300.0" layoutY="241.0" prefHeight="30.0" prefWidth="200.0" promptText="Title" />
+      <Button fx:id="create_group_button" layoutX="356.0" layoutY="300.0" mnemonicParsing="false" onAction="#createGroup" text="Create Group" />
+      <Button fx:id="return_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#stepBack" text="Return" />
+   </children>
+</AnchorPane>

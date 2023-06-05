@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="800" styleClass="anchor" stylesheets="@../styles/homepage.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_project.gui.AddStopGUI">
+   <children>
+      <Button fx:id="return_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#stepBack" text="Return" />
+      <TextField fx:id="title_input" layoutX="310.0" layoutY="100.0" prefHeight="26.0" prefWidth="232.0" />
+      <Label layoutX="260.0" layoutY="155.0" />
+      <Label layoutX="240.0" layoutY="140.0" prefHeight="20.0" prefWidth="70.0" style="-fx-font-weight: bold" text="Type:" />
+      <Label layoutX="240.0" layoutY="97.0" prefHeight="30.0" prefWidth="80.0" style="-fx-font-weight: bold" text="Title:" />
+      <Label layoutX="240.0" layoutY="195.0" prefHeight="20.0" prefWidth="80.0" style="-fx-font-weight: bold" text="Position:" />
+      <Label layoutX="240.0" layoutY="230.0" prefHeight="18.0" prefWidth="52.0" style="-fx-font-weight: bold" text="State:" />
+      <Label layoutX="240.0" layoutY="265.0" prefHeight="18.0" prefWidth="38.0" style="-fx-font-weight: bold" text="City:" />
+      <Label layoutX="240.0" layoutY="300.0" prefHeight="18.0" prefWidth="98.0" style="-fx-font-weight: bold" text="Image:" />
+      <RadioButton fx:id="stay_radio_button" layoutX="450.0" layoutY="140.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="70.0" style="-fx-font-weight: bold" text="Stay">
+         <toggleGroup>
+            <ToggleGroup fx:id="type" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="fun_radio_button" layoutX="380.0" layoutY="165.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="54.0" style="-fx-font-weight: bold" text="Fun" toggleGroup="$type" />
+      <RadioButton fx:id="eat_radio_button" layoutX="310.0" layoutY="140.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="54.0" style="-fx-font-weight: bold" text="Eat" toggleGroup="$type" />
+      <Label layoutX="240.0" layoutY="335.0" prefHeight="18.0" prefWidth="66.0" style="-fx-font-weight: bold" text="Price:" />
+      <TextField fx:id="position_input" layoutX="310.0" layoutY="192.5" prefHeight="26.0" prefWidth="232.0" />
+      <TextField fx:id="state_input" layoutX="310.0" layoutY="227.5" prefHeight="26.0" prefWidth="232.0" />
+      <TextField fx:id="city_input" layoutX="310.0" layoutY="262.5" prefHeight="26.0" prefWidth="232.0" />
+      <TextField fx:id="image_input" layoutX="310.0" layoutY="297.5" prefHeight="26.0" prefWidth="232.0" />
+      <RadioButton fx:id="budget_radio_button" layoutX="310.0" layoutY="335.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="82.0" style="-fx-font-weight: bold" text="BUDGET">
+         <toggleGroup>
+            <ToggleGroup fx:id="price" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="midrange_radio_button" layoutX="310.0" layoutY="360.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="115.0" style="-fx-font-weight: bold" text="MID-RANGE" toggleGroup="$price" />
+      <RadioButton fx:id="luxury_radio_button" layoutX="310.0" layoutY="385.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="98.0" style="-fx-font-weight: bold" text="LUXURY" toggleGroup="$price" />
+      <Button fx:id="submit_button" layoutX="396.0" layoutY="535.0" mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="60.0" text="Submit" />
+      <RadioButton fx:id="fuel_radio_button" layoutX="380.0" layoutY="140.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="54.0" style="-fx-font-weight: bold" text="Fuel" toggleGroup="$type" />
+      <RadioButton fx:id="wild_radio_button" layoutX="310.0" layoutY="165.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="66.0" style="-fx-font-weight: bold" text="Wild" toggleGroup="$type" />
+      <RadioButton fx:id="heritage_radio_button" layoutX="450.0" layoutY="165.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="82.0" style="-fx-font-weight: bold" text="Heritage" toggleGroup="$type" />
+      <Label fx:id="error_label" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="150.0" layoutY="55.0" prefHeight="20.0" prefWidth="500.0" textAlignment="CENTER" textFill="#f42f11">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="240.0" layoutY="420.0" prefHeight="18.0" prefWidth="60.0" style="-fx-font-weight: bold" text="Price:" />
+      <TextField fx:id="desc_input" layoutX="310.0" layoutY="417.5" prefHeight="97.0" prefWidth="232.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+Id;Title;Solo;Members;Stops
+<<<<<<< HEAD
+1;jarkove cesty;0;1;2,3,4,22,1,8
+2;hhh;1;4;1,5
+3;čau;1;11;1
+4;ahoj;1;16;none
+5;jankove cesty;0;2;5
+6;cesty do neznama;0;3;none
+7;uzbekistan;1;16;10
+8;tomašove cesty;1;4;1
+9;filipkove cesty;1;4;2,6
+=======
+1;jarkove cesty;0;1;8,6,3
+2;ahoj;0;5;8,6,3,1,2,7
+3;peťo;0;6;8,6,3,4
+4;banan;0;7;8,6,3,10
+5;ahoj;0;8;8,6,3
+6;janosikove diery;0;9;8,6,3,9,2
+7;pradedo;1;4;8,6,3,4,5
+8;skuska jedna;1;17;8,6,3,1,2
+9;jozef;1;4;8,6,3
+10;kkk;1;18;8,6,3,4
+11;šimonkove ojeby;1;19;8,6,3,5
+12;kamil mlny;0;10;8,6,3
+>>>>>>> origin/main
